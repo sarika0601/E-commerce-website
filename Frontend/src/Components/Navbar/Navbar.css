@@ -1,0 +1,77 @@
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding:16px;
+    box-shadow: 0 2px 3px -2px  black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-logo p{
+    color: #171717;
+    font-weight:600;
+    font-size: 80px;
+
+}
+.nav-menu{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    gap:50px;
+    color: #626262;
+    font-size:50px;
+    font-weight: 500;
+    font-family: "poopins";
+}
+.nav-menu hr{
+    border:none;
+    width:80%;
+    height:3px;
+    border-radius: 10px;
+    background:#FF4141;
+}
+.login-cart{
+    display:flex;
+    align-items: center;
+    gap:45px;
+    font-size:40px ;
+    font-weight:500 ;
+
+}
+.login-cart button{
+    width:200px;
+    height:70px;
+    outline:none;
+    border:1px solid #291f1f;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 30px;
+    font-weight: 600;
+    background: white;
+    cursor:pointer;
+}
+.login-cart button:active{
+    background:#f3f3f3;
+
+}
+.nav-cart-count{
+    width:35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius :11px;
+    font-size: 20px;
+    background:#FF4141;
+    color: #f3f3f3;
+}
+.hero-right{
+    flex:1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
